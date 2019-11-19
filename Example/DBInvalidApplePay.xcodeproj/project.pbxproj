@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		15977A63997456860C3AE848 /* DBInvalidApplePay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DBInvalidApplePay.podspec; path = ../DBInvalidApplePay.podspec; sourceTree = "<group>"; };
-		31B7C143A673C1E6FEF2142B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		15977A63997456860C3AE848 /* DBInvalidApplePay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DBInvalidApplePay.podspec; path = ../DBInvalidApplePay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		31B7C143A673C1E6FEF2142B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		42657C5C46C716536F6CBD85 /* Pods-DBInvalidApplePay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBInvalidApplePay_Example.debug.xcconfig"; path = "Target Support Files/Pods-DBInvalidApplePay_Example/Pods-DBInvalidApplePay_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		56A79551606CB6C1A0E21665 /* Pods-DBInvalidApplePay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBInvalidApplePay_Example.release.xcconfig"; path = "Target Support Files/Pods-DBInvalidApplePay_Example/Pods-DBInvalidApplePay_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5C5243CE45D19065FF020283 /* Pods-DBInvalidApplePay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBInvalidApplePay_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DBInvalidApplePay_Tests/Pods-DBInvalidApplePay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E378FB9B81DD1D6490C5290 /* Pods_DBInvalidApplePay_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBInvalidApplePay_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9A622B053974B85913C48D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A9A622B053974B85913C48D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E9B707BDD013773D4B4E723C /* Pods-DBInvalidApplePay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DBInvalidApplePay_Tests.release.xcconfig"; path = "Target Support Files/Pods-DBInvalidApplePay_Tests/Pods-DBInvalidApplePay_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F3F51CA726E41E49504F0361 /* Pods_DBInvalidApplePay_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DBInvalidApplePay_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -193,7 +193,6 @@
 				5C5243CE45D19065FF020283 /* Pods-DBInvalidApplePay_Tests.debug.xcconfig */,
 				E9B707BDD013773D4B4E723C /* Pods-DBInvalidApplePay_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

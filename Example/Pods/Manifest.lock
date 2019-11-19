@@ -1,0 +1,16 @@
+PODS:
+  - DBInvalidApplePay (1.0.0)
+
+DEPENDENCIES:
+  - DBInvalidApplePay (from `../`)
+
+EXTERNAL SOURCES:
+  DBInvalidApplePay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DBInvalidApplePay: cf6bfa666d5a5607350bcf5a103b979c7e523541
+
+PODFILE CHECKSUM: ec1427cc56b3d51edb35d43e738d86e300aae8cd
+
+COCOAPODS: 1.7.5
