@@ -12,6 +12,6 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 #import <PassKit/PassKit.h>
-#import <DBKit/DBUIKit.h>
+#import <AJKit/AJUIKit.h>
 
 #endif /* AJInvalidApplePay_pch */
