@@ -23,7 +23,7 @@
   "resources": "DBInvalidApplePay/Assets/DBInvalidApplePay.bundle",
   "dependencies": {
     "AJKit/UIKit": [
-
+      "~> 0.1.0"
     ]
   }
 }

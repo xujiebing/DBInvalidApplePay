@@ -1,22 +1,23 @@
 PODS:
   - AJKit/UIKit (0.1.0)
   - DBInvalidApplePay (1.0.0):
-    - AJKit/UIKit
+    - AJKit/UIKit (~> 0.1.0)
 
 DEPENDENCIES:
-  - AJKit/UIKit (from `../../AJKit`)
   - DBInvalidApplePay (from `../`)
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AJKit
+
 EXTERNAL SOURCES:
-  AJKit:
-    :path: "../../AJKit"
   DBInvalidApplePay:
     :path: "../"
 
 SPEC CHECKSUMS:
   AJKit: 1c3a89068b71439c4bbca5500e36375bf8e988dc
-  DBInvalidApplePay: de2ee4575ec969278dc4ef00baae1eaca29e80e5
+  DBInvalidApplePay: af1601c76045ad3fcba3dd6bf36ab029dab59107
 
-PODFILE CHECKSUM: dcb773c422df23d39342f6124d14900ed1e6da75
+PODFILE CHECKSUM: 6b415c13a51fbeb87263f3b39acbe4458211c141
 
 COCOAPODS: 1.7.5

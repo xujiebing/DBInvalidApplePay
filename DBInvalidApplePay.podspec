@@ -21,7 +21,7 @@ TODO: Add long description of the pod here.
   s.prefix_header_file = 'DBInvalidApplePay/Classes/DBInvalidApplePay.pch'
   s.resources = 'DBInvalidApplePay/Assets/DBInvalidApplePay.bundle'
   
-  s.dependency 'AJKit/UIKit', '0.1.0'
+  s.dependency 'AJKit/UIKit', '~> 0.1.0'
   
   # s.resource_bundles = {
   #   'DBInvalidApplePay' => ['DBInvalidApplePay/Assets/*.png']
