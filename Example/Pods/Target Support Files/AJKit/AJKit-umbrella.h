@@ -10,8 +10,9 @@
 #endif
 #endif
 
-#import "DBInvalidApplePay.h"
+#import "AJUIKit.h"
+#import "UIViewController+AJKit.h"
 
-FOUNDATION_EXPORT double DBInvalidApplePayVersionNumber;
-FOUNDATION_EXPORT const unsigned char DBInvalidApplePayVersionString[];
+FOUNDATION_EXPORT double AJKitVersionNumber;
+FOUNDATION_EXPORT const unsigned char AJKitVersionString[];
 

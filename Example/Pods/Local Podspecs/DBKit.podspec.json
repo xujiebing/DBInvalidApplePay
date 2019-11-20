@@ -1,0 +1,33 @@
+{
+  "name": "DBKit",
+  "version": "0.1.0",
+  "summary": "A short description of DBKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xujiebing/DBKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xujiebing": "xujiebing1992@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xujiebing/DBKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "default_subspecs": "Foundation",
+  "subspecs": [
+    {
+      "name": "Foundation",
+      "source_files": "DBKit/Classes/Foundation/*.{h,m}"
+    },
+    {
+      "name": "UIKit",
+      "prefix_header_file": "DBKit/Classes/UIKit/DBUIKit.pch",
+      "source_files": "DBKit/Classes/UIKit/*.{h,m}"
+    }
+  ]
+}

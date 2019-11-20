@@ -4,7 +4,11 @@ platform :ios, '8.0'
 
 target 'DBInvalidApplePay_Example' do
   pod 'DBInvalidApplePay', :path => '../'
-
+  
+  pod 'AJKit',
+  :subspecs => ['UIKit'],
+  :path => '../../AJKit'
+  
   target 'DBInvalidApplePay_Tests' do
     inherit! :search_paths
 

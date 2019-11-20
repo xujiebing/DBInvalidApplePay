@@ -18,8 +18,10 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'DBInvalidApplePay/Classes/**/*.{h,m}'
-  s.prefix_header_file = 'DBInvalidApplePay/Classes/AJInvalidApplePay.pch'
+  s.prefix_header_file = 'DBInvalidApplePay/Classes/DBInvalidApplePay.pch'
   s.resources = 'DBInvalidApplePay/Assets/DBInvalidApplePay.bundle'
+  
+  s.dependency 'AJKit/UIKit'
   
   # s.resource_bundles = {
   #   'DBInvalidApplePay' => ['DBInvalidApplePay/Assets/*.png']
@@ -27,5 +29,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  
 end

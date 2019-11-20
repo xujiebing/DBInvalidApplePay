@@ -1,0 +1,6 @@
+framework module AJKit {
+  umbrella header "AJKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

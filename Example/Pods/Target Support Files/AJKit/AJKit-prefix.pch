@@ -11,19 +11,18 @@
 #endif
 
 //
-//  AJInvalidApplePay.pch
-//  AJInvalidApplePay
+//  AJUIKit.pch
+//  AJKit
 //
 //  Created by 徐结兵 on 2019/11/20.
 //
 
-#ifndef AJInvalidApplePay_pch
-#define AJInvalidApplePay_pch
+#ifndef AJUIKit_pch
+#define AJUIKit_pch
 
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
-#import <PassKit/PassKit.h>
-#import <AJKit/AJUIKit.h>
+#import <AJKit/UIViewController+AJKit.h>
 
-#endif /* AJInvalidApplePay_pch */
+#endif /* AJUIKit_pch */

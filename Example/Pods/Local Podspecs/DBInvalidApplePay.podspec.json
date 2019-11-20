@@ -19,6 +19,11 @@
     "ios": "8.0"
   },
   "source_files": "DBInvalidApplePay/Classes/**/*.{h,m}",
-  "prefix_header_file": "DBInvalidApplePay/Classes/AJInvalidApplePay.pch",
-  "resources": "DBInvalidApplePay/Assets/DBInvalidApplePay.bundle"
+  "prefix_header_file": "DBInvalidApplePay/Classes/DBInvalidApplePay.pch",
+  "resources": "DBInvalidApplePay/Assets/DBInvalidApplePay.bundle",
+  "dependencies": {
+    "AJKit/UIKit": [
+
+    ]
+  }
 }
