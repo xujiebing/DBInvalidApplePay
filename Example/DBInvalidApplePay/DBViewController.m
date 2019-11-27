@@ -7,6 +7,7 @@
 //
 
 #import "DBViewController.h"
+#import <DBInvalidApplePay/DBInvalidApplePay.h>
 
 @interface DBViewController ()
 
@@ -17,7 +18,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [DBInvalidApplePay dbInValidApplePay];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear:animated];
+    [DBInvalidApplePay dbValidApplePay];
 }
 
 - (void)didReceiveMemoryWarning
