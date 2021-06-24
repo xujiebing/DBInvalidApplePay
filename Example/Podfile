@@ -1,13 +1,11 @@
-use_frameworks!
+#use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'DBInvalidApplePay_Example' do
   pod 'DBInvalidApplePay', :path => '../'
   
-  pod 'AJKit',
-  :subspecs => ['UIKit'],
-  :path => '../../AJKit'
+  pod 'AJKit', '0.1.0'
   
   target 'DBInvalidApplePay_Tests' do
     inherit! :search_paths
